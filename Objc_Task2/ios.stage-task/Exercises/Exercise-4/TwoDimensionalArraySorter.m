@@ -28,8 +28,6 @@
     }
     strings = [strings sortedArrayUsingDescriptors: @[descriptor]];
     nums = [nums sortedArrayUsingDescriptors: @[descriptor]];
-    NSLog(@"QUQU nums %@", nums);
-    NSLog(@"QUQU strings %@", strings);
     
     if(nums.count == 0) {
         return strings;
